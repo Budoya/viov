@@ -1,0 +1,90 @@
+
+header {
+    background-color: #002855; /* Azul marinho */
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color:   
+ #FFFFFF; /* Branco */
+}
+
+  
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    background-color: #F2F2F2; /* Cinza claro */
+}
+
+.card h3 {
+    color: #002855; /* Azul marinho */
+}
+
+.card p {
+    color: #666666; /* Cinza médio */
+}
+
+.mais-cursos {
+    background-color: #F2F2F2; /* Cinza claro */
+    padding: 20px;
+}
+
+.mais-cursos h2 {
+    color: #002855; /* Azul marinho */
+}
+
+.sliders {
+    width: 80%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 25%; /* Ajustar a largura conforme necessário */
+    height: 150px; /* Ajustar a altura conforme necessário */
+    background-color: #ccc;
+    margin: 15px;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.paragrafo {
+    width: 100%;
+    color: #666666; /* Cinza médio */
+}
+
+footer {
+    background-color: #002855; /* Azul marinho */
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #FFFFFF; /* Branco */
+}
